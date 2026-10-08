@@ -1,0 +1,30 @@
+{
+  "name": "gemma-agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "tsx server.ts",
+    "start": "tsx index.ts",
+    "stream": "tsx stream.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@ai-sdk/openai": "^4.0.89",
+    "@types/node": "^26.6.4",
+    "ai": "^7.0.133",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vue": "^3.5.43",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.9",
+    "vite": "^8.3.3"
+  }
+}
